@@ -1,0 +1,44 @@
+# Core LangChain and LangGraph
+langchain>=0.1.21
+langgraph>=0.0.43
+langchain-ollama>=0.1.0
+
+# Financial Data and Analysis
+yfinance>=0.2.18
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Environment and Configuration
+python-dotenv>=1.0.0
+
+# Web API Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+pydantic>=2.0.0
+
+# HTTP Client and CORS
+httpx>=0.24.0
+python-multipart>=0.0.6
+
+# System Monitoring and Logging
+psutil>=5.9.0
+structlog>=23.0.0
+
+# Data Processing and Utilities
+requests>=2.31.0
+typing-extensions>=4.7.0
+
+# Testing Framework
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Development Tools (optional but recommended)
+black>=23.0.0
+ruff>=0.0.280
+pre-commit>=3.3.0
+
+# Technical Analysis (if you want to expand indicators)
+ta-lib>=0.4.26
+
+# Optional: Enhanced caching
+redis>=4.6.0
